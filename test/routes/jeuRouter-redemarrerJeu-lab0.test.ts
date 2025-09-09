@@ -1,5 +1,5 @@
-// Vous devez insérer les nouveaux tests ici
 import { assert } from 'console';
+import { jeuRoutes } from "../../src/routes/jeuRouter";
 import 'jest-extended';
 import supertest from 'supertest';
 import app from '../../src/app';
@@ -26,4 +26,10 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
     expect(response.status).toBe(200);
     expect(response.type).toBe("application/json")
   });
+  
+  it("devrait ne plus avoir de joueurs", async () => {
+    const joueursJSON = jeuRoutes.controleurJeu.joueurs;
+    const joueursArray = JSON.parse(joueursJSON);
+    expect(joueursArray.length).toBe(0);
+  })
 });
