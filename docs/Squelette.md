@@ -1,9 +1,9 @@
 # Identification de l'étudiant
 
-- <nomComplet1>Entrer votre nom</nomComplet1>
-- <courriel1>Entrer votre courriel</courriel1>
-- <codeMoodle1>Entrer votre code moodle obtenu à partir de Signets, 2 lettres majuscule avec 5 chiffres</codeMoodle1>
-- <githubAccount1>Entrer l'identifiant de votre compte github</githubAccount1>
+- <nomComplet1>Mayaya Gracia Mobongol</nomComplet1>
+- <courriel1>mayaya-gracia.mobongol.1@ens.etsmtl.ca</courriel1>
+- <codeMoodle1>AV05350</codeMoodle1>
+- <githubAccount1>graciamob</githubAccount1>
 
 # Squelette pour un API simple dans Node, Express et TypeScript
 
