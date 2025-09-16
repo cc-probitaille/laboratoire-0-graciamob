@@ -82,4 +82,11 @@ export class JeuDeDes {
         return JSON.stringify(Array.from(this._joueurs.values()));
     }
 
+    public redemarrerJeu(): void {
+        const joueurs = this._joueurs;
+        if (joueurs.size == 0) {
+            throw new NotFoundError(`Il n'y a aucun joueurs.`);
+        }
+        joueurs.clear();
+    }
 }

@@ -52,7 +52,7 @@ export class Joueur {
         return {
             nom: this.nom,
             lancers: this.lancers,
-            lancersGagnes: this.lancersGagnes
+            lancersGagnes: this.lancersGagnes,
         };
     }
 }

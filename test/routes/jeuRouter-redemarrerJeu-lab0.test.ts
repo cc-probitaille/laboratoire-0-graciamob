@@ -14,12 +14,6 @@ beforeAll(async () => {
   await request.post('/api/v1/jeu/demarrerJeu').send({ nom: testNom2 });
 });
 
-describe('redemarrerJeu.test.ts', () => {
-  it("devrait implémenter test", async () => {
-    throw new Error("Ce test n'a pas été défini")
-  });
-});
-
 describe('GET /api/v1/jeu/redemarrerJeu', () => {
   it("devrait valider le succès de l'opération", async () => {
     const response = await request.get('/api/v1/jeu/redemarrerJeu');
@@ -27,7 +21,7 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
     expect(response.type).toBe("application/json")
   });
   
-  it("devrait ne plus avoir de joueurs", async () => {
+  it("ne devrait plus avoir de joueurs", async () => {
     const joueursJSON = jeuRoutes.controleurJeu.joueurs;
     const joueursArray = JSON.parse(joueursJSON);
     expect(joueursArray.length).toBe(0);
