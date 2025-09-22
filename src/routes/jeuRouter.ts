@@ -113,12 +113,12 @@ export class JeuRouter {
       res.status(200)
         .send({
           message: 'Success',
+          status: res.status,
           resultat
         });
     } catch (error) {
       this._errorCode500(error, req, res);
     }
-    
   }
 
   /**

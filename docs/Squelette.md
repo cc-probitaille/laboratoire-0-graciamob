@@ -161,7 +161,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 *Le Joueur répète l'étape 3 jusqu'à ce qu'il ait fini.*
 
 4. Le Joueur demande à terminer le jeu.
-1. ~~Le Système affiche un tableau de bord avec les noms des joueurs et le ratio des parties gagnées (nombre de fois gagné / nombre de lancers).~~
+1. Le Système affiche un tableau de bord avec les noms des joueurs et le ratio des parties gagnées (nombre de fois gagné / nombre de lancers).
 
 #### Redémarrer
 
@@ -170,19 +170,19 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Diagramme de cas d'utilisation
 
-![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dcu.puml)
+![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-graciamob/refs/heads/master/docs/modeles/dcu.puml)
 
 ### Modèle du domaine
 
-![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/mdd.puml)
+![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-graciamob/refs/heads/master/docs/modeles/mdd.puml)
 
 ### Diagramme de séquence système (DSS)
 
-![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dss-jouer.puml)
+![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-graciamob/refs/heads/master/docs/modeles/dss-jouer.puml)
 
 ### Diagramme de classes logicielles
 
-![Diagramme de classes logicielles](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-graciamob/0dfcfd22b768f13e0d3bba4c9fe73ca30469fcb5/docs/modeles/App.puml)
+![Diagramme de classes logicielles](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-graciamob/refs/heads/master/docs/modeles/App.puml)
 
 ### Contrats d'opération et Réalisations de cas d'utilisation (RDCU)
 
@@ -210,7 +210,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-graciamob/refs/heads/master/docs/modeles/rdcu-jouer.puml)
 
 #### Opération: `terminerJeu(nom:String)`
 

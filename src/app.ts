@@ -64,13 +64,14 @@ class App {
     router.get('/stats', (req, res, next) => {
       const joueurs: Array<Joueur> = JSON.parse(jeuRoutes.controleurJeu.joueurs);
       const joueursAvecRatio = joueurs.map(obj => ({...obj, ratio: obj.lancersGagnes / obj.lancers }));
+      joueursAvecRatio.sort((n1, n2) => n2.ratio - n1.ratio);
       res.render('stats',
         // passer objet au gabarit (template) Pug
         {
           title: `${titreBase}`,
           user: user,
           // créer nouveau tableau de joueurs qui est trié par ratio
-          joueurs: joueursAvecRatio.sort((n1, n2) => n1.ratio - n2.ratio)
+          joueurs: joueursAvecRatio
         });
     });
 
